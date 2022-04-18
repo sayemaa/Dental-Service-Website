@@ -10,9 +10,10 @@ const Office = () => {
         <div id='office' className='office-container container'>
             <h1 className='office-heading'>Welcome to <span className='my-office'>My Office</span></h1>
             <div className='d-flex align-items-center'>
-                <div className='w-50'>
-
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint facilis tempora dicta mollitia error soluta consequuntur, quasi quisquam amet voluptatibus, animi explicabo voluptas expedita deserunt delectus! Ipsum obcaecati omnis fugit?</p>
+                <div className='w-50 me-5'>
+                    <h3 className='mb-3'>Office and Environment</h3>
+                    <p>Each of our patients is entitled to excellent oral health in a relaxing and pleasant setting and environment. A wide range of dental equipment is available as well as the ideal setting for you to feel at ease and stress-free. Any dental operation will be performed with care and courtesy, since your comfort is my top priority. My goal is for you to enjoy visiting to the dentist, so I will use the most up-to-date dental technologies to help you feel at ease and peaceful.</p>
+                    <button className='visit-btn'>Visit Us</button>
                 </div>
                 <Carousel fade className='container w-50'>
                     <Carousel.Item>

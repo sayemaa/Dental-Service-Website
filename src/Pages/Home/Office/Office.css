@@ -13,6 +13,20 @@
     color: #27abba;
 }
 
+.visit-btn{
+    margin-top: 5px;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #27abba;
+    font-weight: 500;
+}
+
+.visit-btn:hover{
+    background-color: #55c4d0;
+}
+
 .office-img{
     border-radius: 10px;
 }
