@@ -7,7 +7,7 @@ import office2 from '../../../images/office/office-2.jpg';
 
 const Office = () => {
     return (
-        <div className='office-container container'>
+        <div id='office' className='office-container container'>
             <h1 className='office-heading'>Welcome to <span className='my-office'>My Office</span></h1>
             <div className='d-flex align-items-center'>
                 <div className='w-50'>

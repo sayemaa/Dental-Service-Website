@@ -1,7 +1,7 @@
 
 .office-container{
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .office-heading{
@@ -10,7 +10,7 @@
 }
 
 .my-office{
-    color: darkcyan;
+    color: #27abba;
 }
 
 .office-img{
