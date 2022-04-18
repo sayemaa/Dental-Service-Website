@@ -1,6 +1,6 @@
 # inDent
 
-Link of Live Website: [inDent](https://beauty-bliss.netlify.app/)
+Link of Live Website: [inDent](https://dental-service-f0546.web.app/)
 
 ## Description ##
 
