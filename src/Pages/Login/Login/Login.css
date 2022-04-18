@@ -1,5 +1,5 @@
 .login-form{
-    margin: 0 auto;
+    margin-bottom: 50px;
     width: 50%;
 }
 
@@ -31,6 +31,9 @@
 .register-link{
     text-decoration: none;
     color: #27abba;
+    padding: 0;
+    background-color: white;
+    border: none;
 }
 
 .register-link:hover{

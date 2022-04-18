@@ -5,6 +5,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import logo from '../../../images/logo/inDent.png'
+import CustomLink from './CustomLink/CustomLink';
 import './Header.css'
 
 const Header = () => {
@@ -16,21 +17,20 @@ const Header = () => {
 
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" sticky='top' bg="light" variant="light">
+            <Navbar className='sticky-top' collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
                     <Navbar.Brand style={{ color: '#27abba' }} className='d-flex align-items-center fw-bold fs-3' href="#home"><img height={40} className='me-1' src={logo} alt="" />inDent</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link className='text-dark me-2' href="home#services">Services</Nav.Link>
-                            <Nav.Link className='text-dark me-2' href="home#office">Office</Nav.Link>
-                            <Nav.Link className='text-dark me-2' as={Link} to="blogs">Blogs</Nav.Link>
-                            <Nav.Link className='text-dark me-2' as={Link} to="about">About</Nav.Link>
+                            <CustomLink className='me-2 nav-links' as={Link} to="home">Home</CustomLink>
+                            <CustomLink className='me-2 nav-links' as={Link} to="blogs">Blogs</CustomLink>
+                            <CustomLink className='me-2 nav-links' as={Link} to="about">About</CustomLink>
                             {
                                 user ?
                                     <button className='sign-out-btn me-2' onClick={handleSignOut}>Sign Out</button>
                                     :
-                                    <Nav.Link className='text-dark me-2' as={Link} to="login">Login</Nav.Link>}
+                                    <CustomLink className='me-2 nav-links' as={Link} to="login">Login</CustomLink>}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
