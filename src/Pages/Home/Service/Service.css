@@ -1,0 +1,33 @@
+
+.service{
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 350px;
+}
+
+.service img{
+    width: 320px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.service-details{
+    width: 320px;
+}
+
+.service-name{
+    color: darkcyan;
+    font-size: 28px;
+    margin: 5px 0;
+}
+
+.booking-button{
+    margin-top: 5px;
+    padding: 8px 20px;
+    border: 1px solid darkcyan;
+    border-radius: 30px;
+    background-color: white;
+    color: darkcyan;
+    font-weight: 500;
+}

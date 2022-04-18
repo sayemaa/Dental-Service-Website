@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "General Dentistry",
+        "price": "200",
+        "description": "I can help you and your family obtain and keep a healthy, beautiful smile, from dental cleanings to emergencies.",
+        "img": "https://i.ibb.co/KsLbhN6/3.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cosmetic Dentistry",
+        "price": "250",
+        "description": "Want a brighter smile? With a new smile that is both beautiful and healthy, you can feel more confident about your look.",
+        "img": "https://i.ibb.co/3CGYKXJ/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dental Implants",
+        "price": "500",
+        "description": "Your implant therapy will be monitored and managed from start to finish to ensure that your care is consistent.",
+        "img": "https://i.ibb.co/8B1qdbb/1.jpg"
+    }
+]
