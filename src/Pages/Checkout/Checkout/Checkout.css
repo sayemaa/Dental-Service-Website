@@ -2,3 +2,24 @@
     text-align: center;
     color: #27abba;
 }
+
+.billing-form input{
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 15px; 
+    border: 1px solid gray
+}
+
+.submit-btn{
+    background-color: #27abba;
+    color: white;
+    font-weight: 500;
+    border-radius: 15px; 
+    width: 25%;
+}
+
+.submit-btn:hover{
+    background-color: #55c4d0;
+}
