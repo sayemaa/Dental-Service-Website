@@ -28,7 +28,7 @@ const Header = () => {
                             <CustomLink className='me-2 nav-links' as={Link} to="about">About</CustomLink>
                             {
                                 user ?
-                                    <button className='sign-out-btn me-2' onClick={handleSignOut}>Sign Out</button>
+                                    <a className='sign-out-btn me-2' onClick={handleSignOut}>Sign Out</a>
                                     :
                                     <CustomLink className='me-2 nav-links' as={Link} to="login">Login</CustomLink>}
                         </Nav>

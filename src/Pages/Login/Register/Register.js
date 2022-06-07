@@ -52,15 +52,15 @@ const Register = () => {
     }
 
     return (
-        <div className='register-form'>
+        <div className='register-form mx-auto'>
             <h2 style={{ color: '#27abba' }} className='text-center my-4'>Register Now</h2>
-            <form onSubmit={handleRegister}>
-                <input ref={nameRef} type="text" name="name" placeholder='Your Name' />
-                <input ref={emailRef} type="email" name="email" placeholder='Your Email Address' required />
-                <input ref={passwordRef} type="password" name="password" placeholder='Password' required />
-                <input ref={confirmPasswordRef} type="password" name="confirm-password" placeholder='Confirm Password' required />
+            <form onSubmit={handleRegister} className='d-grid justify-items-center w-25 mx-auto'>
+                <input ref={nameRef} type="text" class="form-control" name="name" placeholder='Your Name' />
+                <input ref={emailRef} type="email" class="form-control" name="email" placeholder='Your Email Address' required />
+                <input ref={passwordRef} type="password" class="form-control" name="password" placeholder='Password' required />
+                <input ref={confirmPasswordRef} type="password" class="form-control" name="confirm-password" placeholder='Confirm Password' required />
                 <p style={{ color: 'red' }}>{error}</p>
-                <input className='register-btn' type="submit" value="Register" />
+                <input className='register-btn border-0 mx-auto' type="submit" value="Register" />
             </form>
             <p className='mx-auto text-center'>Already have an account? <Link to="/login" className='login-link pe-auto' onClick={navigateLogin}>Please Login</Link></p>
             <SocialLogin></SocialLogin>

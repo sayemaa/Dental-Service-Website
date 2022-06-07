@@ -5,14 +5,13 @@
 }
 
 .sign-out-btn{
-    background-color: #27abba;
-    border: none;
-    color: white;
-    font-weight: 500;
+    color: #27abba;
+    font-weight: bold;
     border-radius: 15px;
-    padding: 5px 10px;
+    text-decoration: none;
+    border: none;
 }
 
 .sign-out-btn:hover{
-    background-color: #55c4d0;
+    color: #55c4d0;
 }

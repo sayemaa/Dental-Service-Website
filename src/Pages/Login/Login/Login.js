@@ -36,7 +36,7 @@ const Login = () => {
     }
 
     if (error) {
-        errorElement = <p className='text-danger'>Error: {error?.message} </p>
+        errorElement = <p className='text-danger text-center'>Error: {error?.message} </p>
     }
 
     const handleLogin = event => {
@@ -65,12 +65,12 @@ const Login = () => {
     return (
         <div className='login-form mx-auto'>
             <h2 style={{ color: '#27abba' }} className='text-center my-4'>Please Login</h2>
-            <form onSubmit={handleLogin}>
-                <input ref={emailRef} type="email" name="email" placeholder='Your Email Address' required />
-                <input ref={passwordRef} type="password" name="password" placeholder='Password' required />
-                <input className='login-btn' type="submit" value="Login" />
+            <form onSubmit={handleLogin} className='d-grid justify-items-center w-25 mx-auto'>
+                <input ref={emailRef} type="email" class="form-control" name="email" placeholder='Your Email Address' required />
+                <input ref={passwordRef} type="password" class="form-control" name="password" placeholder='Password' required />
+                {errorElement}
+                <input className='login-btn border-0 mx-auto' type="submit" value="Login" />
             </form>
-            {errorElement}
             <p className='mx-auto text-center'>New to inDent? <Link to="/register" className='register-link pe-auto' onClick={navigateRegister}>Create an account</Link></p>
             <p className='mx-auto text-center'>Forgot Password? <button className='register-link pe-auto' onClick={resetPassword}>Reset Password</button></p>
             <SocialLogin></SocialLogin>

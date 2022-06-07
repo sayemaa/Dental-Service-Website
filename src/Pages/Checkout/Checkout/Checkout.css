@@ -4,12 +4,9 @@
 }
 
 .billing-form input{
-    height: 50px;
-    padding-left: 10px;
-    font-size: 18px;
+    height: 45px;
     margin-bottom: 10px;
     border-radius: 15px; 
-    border: 1px solid gray
 }
 
 .submit-btn{
