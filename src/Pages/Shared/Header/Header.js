@@ -23,7 +23,7 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
-                            <CustomLink className='me-2 nav-links' as={Link} to="home">Home</CustomLink>
+                            <CustomLink className='me-2 nav-links' as={Link} to="/">Home</CustomLink>
                             <CustomLink className='me-2 nav-links' as={Link} to="blogs">Blogs</CustomLink>
                             <CustomLink className='me-2 nav-links' as={Link} to="about">About</CustomLink>
                             {
